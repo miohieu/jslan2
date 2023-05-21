@@ -146,7 +146,7 @@ function ex4() {
     }
     document.getElementById("result4").innerHTML = `Khach hang ${document.getElementById("customerCode").value
         }
-    Tien phi: ${cableFee}`;
+    Tien phi: $${cableFee}`;
 }
 btn4 = document.getElementById("submit4");
 btn4.addEventListener("click", ex4);
