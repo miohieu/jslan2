@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JS bai tap 2</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body>
+    <section>
+      <h1>Bai 1</h1>
+      <input type="text" id="subject1" placeholder="Diem mon 1" />
+      <input type="text" id="subject2" placeholder="Diem mon 2" />
+      <input type="text" id="subject3" placeholder="Diem mon 3" />
+      <input type="text" id="standard" placeholder="Nhap diem chuan" />
+      <div>
+        <label for="area"> Khu vuc</label>
+        <select name="" id="area">
+          <option value="area">--Chon khu vuc cua ban--</option>
+          <option value="X">X</option>
+          <option value="A">A</option>
+          <option value="B">B</option>
+          <option value="C">C</option>
+        </select>
+        <label for="object"> Nhom doi tuong </label>
+        <select name="" id="object">
+          <option value="object">--Chon nhom doi tuong--</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="0">0</option>
+        </select>
+        <button id="submit">submit</button>
+      </div>
+      <div id="resultDiv"></div>
+    </section>
+    <section class="bai2">
+      <h1>Bai 2</h1>
+      <input type="text" placeholder="Ho va ten khach hang" id="customerInfo" />
+      <input type="text" placeholder="Nhap so dien tieu thu" id="usedAmount" />
+      <div>
+        <button id="submit2">Tinh tien dien!!</button>
+        <div id="resultDiv2"></div>
+      </div>
+    </section>
+    <section class="bai3">
+      <h1>Bai 3</h1>
+      <form>
+        <input type="text" placeholder="Ho va ten" id="customerName" />
+        <input name="" id="income" placeholder="Nhap tong thu nhap" />
+        <input
+          type="text"
+          id="numOfPeople"
+          placeholder="Nhap so nguoi phu thuoc"
+        />
+      </form>
+      <button id="submit3">Click de tinh thue</button>
+      <div id="result3"></div>
+    </section>
+    <section class="bai4"></section>
+    <section class="bai4">
+      <h1>Bai 4</h1>
+      <input type="text" placeholder="Nhap ma khach hang" id="customerCode" />
+      <label for="typeOfCustomer">Chon loai khach hang</label>
+      <select name="" id="typeOfCustomer">
+        <option value="personal">Ho gia dinh</option>
+        <option value="org">Doanh Nghiep</option>
+      </select>
+      <div>
+        <label for="highQuality">Kenh cao cap</label>
+        <input
+          id="highQuality"
+          type="text"
+          placeholder="Nhap so kenh cao cap"
+        />
+      </div>
+      <div id="connectionsInput">
+        <label for="connections">So ket noi</label>
+        <input id="connections" type="text" placeholder="Nhap so ket noi" />
+      </div>
+      <button id="submit4">Tinh tien cap</button>
+      <div id="result4"></div>
+    </section>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
